@@ -17,13 +17,13 @@ app = Dash(
 # =========================
 
 budget = pd.read_csv(
-    "data/Budget_Clean.csv",
+    "Budget_Clean.csv",
     sep=";",
     encoding="latin1"
 )
 
 pnl = pd.read_csv(
-    "data/Pnl_Clean.csv",
+    "Pnl_Clean.csv",
     sep=";",
     encoding="latin1"
 )
